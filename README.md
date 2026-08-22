@@ -64,5 +64,21 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Hummingbird Bioscience is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/hummingbird-bioscience_stock/
+Hummingbird Bioscience is a clinical-stage precision biotherapeutics company headquartered at The
+Galen, Singapore Science Park, with US operations. It discovers and develops antibody-based
+medicines — including next-generation antibody-drug conjugates (ADCs) — for hard-to-treat cancers
+and autoimmune disease, using its Rational Antibody Discovery (RAD) platform and in-house
+linker-payload chemistry. Clinical programs include HMBD-001 (anti-HER3 mAb) and HMBD-501
+(HER3-targeted ADC, first patient dosed January 2026); HMBD-002 (anti-VISTA) was licensed to
+Percheron Therapeutics in 2025.
+
+**No API surface.** A full contract-discovery pass on 2026-08-22 found no OpenAPI, Swagger,
+GraphQL SDL, AsyncAPI, gRPC/Protobuf, WSDL, MCP server or A2A agent card, no developer portal or
+documentation section anywhere in the site navigation, no `api.`/`docs.`/`developer.` subdomain,
+and no first-party package in any public registry. The company's own GitHub organization,
+[hummingbirdbio](https://github.com/hummingbirdbio), has zero public repositories. This profile is
+therefore identity and probe evidence only — see `x-coverage` in `apis.yml`.
+
+- Website: https://hummingbirdbioscience.com/
+- GitHub: https://github.com/hummingbirdbio
+- Secondary-market listing (harvest source): https://forgeglobal.com/hummingbird-bioscience_stock/

@@ -1,0 +1,55 @@
+generated: '2026-08-22'
+method: probed
+source: https://hummingbirdbioscience.com/.well-known/
+note: >-
+  Zero hits. The corporate origin (WordPress on SiteGround) answers every request — including a
+  deliberately nonsensical control path — with an identical HTTP 202 "Robot Challenge Screen"
+  interstitial (`sg-captcha: challenge`, `x-robots-tag: noindex`), so no /.well-known/ document
+  could be fetched or saved. The 202s below are a CATCH-ALL, not documents: no WellKnown and no
+  SecurityTxt pointer is emitted from this file. Hummingbird Bioscience is a clinical-stage
+  biotherapeutics company with no developer program, so no OpenAPI servers[] or API host exists
+  to probe beyond the corporate domain.
+hit_count: 0
+hosts:
+- host: https://hummingbirdbioscience.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 202
+    file: null
+    note: bot-challenge interstitial (text/html, 195 bytes), not a document
+  - path: /.well-known/openid-configuration
+    status: 202
+    file: null
+    note: bot-challenge interstitial (text/html, 203 bytes), not a document
+  - path: /.well-known/oauth-authorization-server
+    status: 202
+    file: null
+    note: bot-challenge interstitial (text/html, 209 bytes), not a document
+  - path: /.well-known/oauth-protected-resource
+    status: 202
+    file: null
+    note: bot-challenge interstitial (text/html, 207 bytes), not a document
+  - path: /.well-known/api-catalog
+    status: 202
+    file: null
+    note: bot-challenge interstitial (text/html, 194 bytes), not a document
+  - path: /.well-known/ai-plugin.json
+    status: 202
+    file: null
+    note: bot-challenge interstitial (text/html, 197 bytes), not a document
+  - path: /.well-known/agent-card.json
+    status: 202
+    file: null
+    note: bot-challenge interstitial (text/html, 198 bytes), not a document
+  - path: /.well-known/agent.json
+    status: 202
+    file: null
+    note: bot-challenge interstitial (text/html, 193 bytes), not a document
+soft_404_control:
+  path: /.well-known/this-path-does-not-exist-control
+  status: 202
+  content_type: text/html
+  bytes: 215
+  verdict: >-
+    Catch-all confirmed — a path that cannot exist returns the same 202 challenge body as every
+    real path, so no 202 on this host may be promoted to a served document.

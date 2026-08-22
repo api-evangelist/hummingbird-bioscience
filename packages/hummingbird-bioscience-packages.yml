@@ -1,0 +1,31 @@
+generated: '2026-08-22'
+method: searched
+source: >-
+  registry.npmjs.org search + scope probe, pypi.org/pypi/*/json, rubygems.org/api/v1/gems/*.json,
+  crates.io/api/v1/crates, packagist.org/search.json, api.github.com/orgs/hummingbirdbio/repos
+package_count: 0
+official_sdk_count: 0
+packages: []
+note: >-
+  No first-party client library exists in any public registry. Hummingbird Bioscience publishes no
+  API, so there is nothing for an SDK to wrap. Probed 2026-08-22: PyPI hummingbird-bioscience 404
+  and hummingbirdbio 404; RubyGems both 404; crates.io both 0 results; Packagist 0 results; npm
+  scope @hummingbirdbio 404 (the npm text search for "hummingbird bioscience" returns only
+  unrelated projects — @hummingbirdui/*, @wingscms/hummingbird, microsoft/hummingbird — none of
+  which belong to this company). The company's own GitHub organization,
+  https://github.com/hummingbirdbio (name "Hummingbird Bioscience", location Singapore, contact
+  it@hummingbirdbio.com), has 0 public repositories and 2 public gists, both internal
+  bioinformatics notes about adding R/conda kernels to JupyterLab. No SDKs pointer is emitted.
+registries_checked:
+- registry: npm
+  result: no first-party package
+- registry: pypi
+  result: no first-party package
+- registry: rubygems
+  result: no first-party package
+- registry: crates.io
+  result: no first-party package
+- registry: packagist
+  result: no first-party package
+- registry: github
+  result: organization exists, 0 public repositories

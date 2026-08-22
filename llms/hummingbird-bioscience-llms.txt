@@ -1,0 +1,55 @@
+# Hummingbird Bioscience
+
+> Clinical-stage precision biotherapeutics company (The Galen, Singapore Science Park, with US
+> operations) discovering and developing antibody-based medicines — including next-generation
+> antibody-drug conjugates — for hard-to-treat cancers and autoimmune disease. Hummingbird
+> Bioscience sells drug programs and partnerships, not software: as of 2026-08-22 it publishes
+> **no API, no SDK, no developer portal and no machine-readable contract of any kind**. Agents
+> should not expect a programmable surface here.
+
+## About
+
+- [Website](https://hummingbirdbioscience.com/): Corporate site (WordPress). Note: the origin
+  answers automated clients with a SiteGround "Robot Challenge Screen" (HTTP 202,
+  `sg-captcha: challenge`), so machine reads of any page on this host require solving a
+  JavaScript proof-of-work challenge.
+- [About Us](https://hummingbirdbioscience.com/about-us/): Company, leadership, locations.
+- [Science](https://hummingbirdbioscience.com/science/): Rational Antibody Discovery (RAD)
+  platform — computational target and epitope modelling, proprietary immunization strategies,
+  Abvantage mice.
+- [Antibody Platform](https://hummingbirdbioscience.com/antibody-platform/)
+- [ADC Platform](https://hummingbirdbioscience.com/adc-platform/): Linker-payload chemistry.
+- [Pipeline](https://hummingbirdbioscience.com/pipeline/): HMBD-001 (anti-HER3 mAb), HMBD-501
+  (HER3-targeted ADC; first patient dosed January 2026). HMBD-002 (anti-VISTA) was licensed to
+  Percheron Therapeutics in 2025.
+- [Publications](https://hummingbirdbioscience.com/publications/)
+- [News](https://hummingbirdbioscience.com/news/)
+- [Partnering](https://hummingbirdbioscience.com/partnering/): Business-development contact for
+  licensing and collaboration — the company's only intake surface.
+- [Patients](https://hummingbirdbioscience.com/patients/)
+- [Careers](https://hummingbirdbioscience.com/careers/)
+- [Contact](https://hummingbirdbioscience.com/contact/)
+- [Privacy Policy](https://hummingbirdbioscience.com/privacy-policy/)
+
+## Code
+
+- [GitHub organization](https://github.com/hummingbirdbio): "Hummingbird Bioscience", Singapore,
+  it@hummingbirdbio.com. 0 public repositories; 2 public gists (internal JupyterLab R/conda kernel
+  notes). No published source, no SDK.
+
+## APIs
+
+None. Contract discovery run 2026-08-22 against hummingbirdbioscience.com found no OpenAPI,
+Swagger, GraphQL SDL, AsyncAPI, gRPC/Protobuf, WSDL, MCP server or A2A agent card, and no
+api./docs./developer./portal. subdomain resolves. hummingbirdbio.com redirects to the same
+corporate site.
+
+## Artifacts published by API Evangelist
+
+- [apis.yml](apis.yml): APIs.json 0.20 provider profile.
+- [Well-known probe](well-known/hummingbird-bioscience-well-known.yml): recorded absence — every
+  /.well-known/ path, including a nonsense control path, returns the same bot-challenge body.
+- [Packages](packages/hummingbird-bioscience-packages.yml): recorded absence across npm, PyPI,
+  RubyGems, crates.io, Packagist and GitHub.
+- [Domain security](security/hummingbird-bioscience-domain-security.yml): probed TLS 1.3, no HSTS,
+  no DNSSEC, no CAA, no apex SPF, no DMARC.
