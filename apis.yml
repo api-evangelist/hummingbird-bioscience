@@ -13,6 +13,17 @@ description: >-
   programs and partnerships, not software: it publishes no developer program, API, SDK or
   machine-readable contract.
 url: https://raw.githubusercontent.com/api-evangelist/hummingbird-bioscience/refs/heads/main/apis.yml
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://hummingbirdbioscience.com/wp-content/uploads/2022/12/social-share.png
 x-type: company
 x-source: harvest:secondary-market
